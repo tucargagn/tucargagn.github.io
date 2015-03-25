@@ -90,7 +90,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #F26E00;
 }
 
 
@@ -278,7 +278,11 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
-
+    
+    h2 {
+        color: #FFF;
+    }
+    
     @media(min-width:767px) {
     .content-section {
         padding-top: 350px;
