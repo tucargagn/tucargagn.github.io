@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="tucargagn - Envios Puerta a Puerta Miami Valencia">
+    <meta name="author" content="José M Viloria">
+
+    <title>TucargaGN - Puerta a Puerta Miami - Valencia</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+		<!--  Navbar -->
+		
+		<nav class="navbar navbar-default navbar-fixed-top noBorder" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand brandStyle" href="index.html">TucargaGN - Envios Puerta a Puerta</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Main -->
+		
+		<div class="container">
+		<br/><br/>
+		<h1 class="text-center">Calculadora de Libras volumetricas</h1>
+		<p>Éste formulario puede ser utilizado para el calculo de las libras volumetricas, la unidad utilizada por los equipos de encomienda para saber el volumen real de un articulo/paquete. <strong>Debe llenar todos los espacios con los datos requeridos. SIN EXCEPCIONES.</strong></p>
+
+		<form>
+			
+			<label>Largo:</label>
+			<input type="text" class="form-control" id="nombre" name="a" placeholder="Ingrese Largo del paquete"><br>
+			<label>Alto:</label>
+			<input type="text" class="form-control" id="nombre" name="b" placeholder="Ingrese Alto del paquete"><br>
+			<label>Ancho:</label>
+			<input type="text" class="form-control" id="nombre" name="c" placeholder="Ingrese Ancho del paquete"><br>
+			<input type="button" value="Calcular" onClick="calculo(this.form)"><p></p>
+			<label>Libras volumetricas calculadas:</label>
+			<input type="text" class="form-control" id="nombre" name="total" placeholder="Total"><br>
+			
+		</form>
+			<br />	<h4><strong>*</strong> Recuerde que el valor que será cobrado por libra volumetrica es equivalente al dolar paralelo al momento de hacer la compra.</h4>
+			<center><img src="https://dekkhhmbjxs3u.cloudfront.net/custom/rate2.jpg" class="img-responsive"></center>
+			
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/calc-core.js"></script>
+		<script src="assets/js/myscript.js"></script>
+	</body>
+</html>
